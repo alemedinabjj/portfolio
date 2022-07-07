@@ -9,7 +9,7 @@ export function Navbar() {
   return (
     <>
     <nav className="w-80 h-[100vh] flex flex-col bg-gray-900 fixed rounded-tr-[13rem]
-      sm:w-full sm:h-[60%] sm:rounded-none sm:absolute
+      sm:w-full sm:h-[60%] sm:rounded-none sm:absolute sm:pt-5
     ">
       <ul className="flex justify-center gap-6 text-base text-slate-50 w-30 rounded-br-full 
       bg-gray-900

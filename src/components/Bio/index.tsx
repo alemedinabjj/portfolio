@@ -7,14 +7,14 @@ import { TbBrandNextjs } from 'react-icons/tb'
 
 export function Bio() {
   return (
-    <header className='flex flex-col items-center justify-center mx-4'>
+    <header className='flex flex-col items-center justify-center mx-4 sm:mx-0'>
       <img src={ProfileIMG} alt=""  className='w-36 my-5 rounded-full'/>
       <article className='text-center text-white'>
         <h1 className='text-3xl'>Alexandre Medina</h1>
           <p>Front-end Developer</p>
       </article>
 
-      <div className='w-full flex flex-col pt-5 bg-gray-900 p-3 rounded mt-5 gap-2'>
+      <div className='w-full sm:h-full flex flex-col pt-5 bg-gray-900 p-3 rounded mt-5 gap-2 sm:pb-7 '>
         <h3 className='text-white inline text-center'>Soft Skills</h3>
         <hr className='pb-2'></hr>
         <div className='flex gap-2 justify-between sm:justify-evenly'>
@@ -47,8 +47,7 @@ export function Bio() {
 
         </i>
         </div>
-      </div>
-      <div className='w-full'>
+        <div className='w-full'>
         <h3 className='text-white pb-2 text-center'>Social Links</h3>
         <hr className='' />
         <div className='flex flex-row justify-between sm:justify-evenly pt-7'>
@@ -68,6 +67,8 @@ export function Bio() {
         </div>
 
       </div>
+      </div>
+  
 
     </header>
   )

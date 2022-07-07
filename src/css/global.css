@@ -75,7 +75,7 @@ input, textarea {
     max-height: 100vh;
   }
   main {
-    margin-top: 60vh;
+    padding-top: 80vh;
     margin-left: 0;
     width: 100%;
   }
