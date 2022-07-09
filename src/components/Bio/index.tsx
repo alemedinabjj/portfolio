@@ -8,14 +8,14 @@ import { TbBrandNextjs } from 'react-icons/tb'
 export function Bio() {
   return (
     <header className='flex flex-col items-center justify-center mx-4 sm:mx-0'>
-      <img src={ProfileIMG} alt=""  className='w-36 my-5 rounded-full'/>
+      <img src={ProfileIMG} alt=""  className='w-36 my-5 rounded-full border-2 border-cyan-300 p-1'/>
       <article className='text-center text-white'>
         <h1 className='text-3xl'>Alexandre Medina</h1>
           <p>Front-end Developer</p>
       </article>
 
       <div className='w-full sm:h-full flex flex-col pt-5 bg-gray-900 p-3 rounded mt-5 gap-2 sm:pb-7 '>
-        <h3 className='text-white inline text-center'>Soft Skills</h3>
+        <h3 className='text-white inline text-center'>Hard Skills</h3>
         <hr className='pb-2'></hr>
         <div className='flex gap-2 justify-between sm:justify-evenly'>
         <i className='py-2 w-36 text-center font-bold text-[.8rem] bg-yellow-500 rounded text-white flex items-center justify-center gap-3'> 
