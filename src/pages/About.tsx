@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <main className="h-[100vh] sm:h-[40vh]  bg-gradient-to-l from-gray-900 to-transparent">
+    <main className="h-[100vh] sm:h-[40vh]">
       <section className="flex items-center flex-col justify-center p-5">
         <div className="bg-slate-900 rounded-lg p-5 pb-20 relative after:w-20 after:h-20 after:rotate-45 after:bg-slate-900 after:absolute after:top-[1rem] after:left-[-1rem]">
         <h1 className="text-3xl text-gray-100 text-center">Alexandre Medina,</h1>

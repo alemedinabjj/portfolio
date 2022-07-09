@@ -8,10 +8,10 @@ AOS.init()
 export function Contact () {
   return (
     <main>
-      <section className='flex pt-10 flex-col items-center text-white h-[100vh] sm:h-full bg-gradient-to-l from-gray-900 to-transparent'>
+      <section className='flex pt-10 flex-col items-center text-white h-[100vh] sm:h-full'>
         <h5 className='text-sm'>Get in Touch</h5>
         <h2 className='text-3xl pb-5 text-cyan-300'>Contact Me</h2>
-        <div className='flex flex-row gap-3' >
+        <div className='flex flex-row gap-3 sm:flex-col' >
         <article className='w-48 h-28 flex items-center flex-col p-2 bg-gray-900 text-white rounded hover:bg-transparent hover:border-solid hover:border-2 hover:border-slate-300 transition-all' data-aos="flip-right">
           <div className='flex items-center gap-1 justify-center pb-3'>
           <MdOutlineEmail />

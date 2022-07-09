@@ -15,7 +15,7 @@ export function Repository() {
 
   return (
     <main>
-      <section className='flex pt-10 flex-col items-center text-white h-[100%]  bg-gradient-to-l from-gray-900 to-transparent'>
+      <section className='flex pt-10 flex-col items-center text-white h-[100%]  '>
         <ul className="grid sm:flex sm:flex-col sm:w-full grid-rows-9 grid-flow-col gap-4 mt-5">
           {repository.map(repo => {
             return (
